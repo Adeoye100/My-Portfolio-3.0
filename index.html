@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Adeoye Opeyemi - Frontend Developer Portfolio"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Adeoye Opeyemi | Frontend Developer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=nippo@400&f[]=clash-display@400,500&f[]=chillax@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="img/fav.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="brand">
+            <a href="#hero">
+              <h1>
+                <span><i class="fa-solid fa-code" href="hero"></i>Adeoye</span>
+                Opeyemi
+              </h1>
+            </a>
+          </div>
+          <div class="nav-list">
+            <div class="hamburger">
+              <div class="bar"></div>
+            </div>
+            <ul>
+              <li><a href="#hero" data-after="Home">Home</a></li>
+              <li><a href="#services" data-after="Services">Services</a></li>
+              <li><a href="#projects" data-after="Projects">Projects</a></li>
+              <li><a href="#about" data-after="About">About</a></li>
+              <li><a href="#contact" data-after="Contact">Contact</a></li>
+              <li>
+                <div class="theme-switch-wrapper">
+                  <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round"></div>
+                  </label>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="swiper hero-swiper">
+        <div class="swiper-wrapper">
+          <!-- Slide 1 -->
+          <div
+            class="swiper-slide hero-slide"
+            style="
+              background-image: linear-gradient(
+                  rgba(0, 0, 0, 0.6),
+                  rgba(0, 0, 0, 0.6)
+                ),
+                url('./img/img\ nav\ bg.jpg');
+            "
+          >
+            <div class="hero container">
+              <h1>Hello, <span></span></h1>
+              <h1>👋🏾I'm <span>Adeoye Opeyemi</span></h1>
+              <p>
+                Frontend Developer | Potential Junior Software Engineer
+                Enthusiast | Problem Solver
+              </p>
+              <div class="hero-buttons">
+                <a href="#projects" class="cta">View Portfolio</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div
+            class="swiper-slide hero-slide"
+            style="
+              background-image: linear-gradient(
+                  rgba(0, 0, 0, 0.6),
+                  rgba(0, 0, 0, 0.6)
+                ),
+                url('./img/collage.png');
+            "
+          >
+            <div class="hero container">
+              <h1>Creating <span></span></h1>
+              <h1>Beautiful <span>Digital Experiences</span></h1>
+              <p>
+                Explore my catalogs of responsive designs with attention to
+                detail and user experience
+              </p>
+              <div class="hero-buttons">
+                <a href="#services" class="cta">My Services</a>
+                <a href="#about" class="cta secondary">About Me</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div
+            class="swiper-slide hero-slide"
+            style="
+              background-image: linear-gradient(
+                  rgba(0, 0, 0, 0.6),
+                  rgba(0, 0, 0, 0.6)
+                ),
+                url('./img/taste.png');
+            "
+          >
+            <div class="hero container">
+              <h1>Let's Build <span></span></h1>
+              <h1>Something <span>Amazing</span></h1>
+              <p>Innovative solutions that suits your taste</p>
+              <div class="hero-buttons">
+                <a href="#contact" class="cta">Get In Touch</a>
+                <a href="#projects" class="cta secondary">See My Work</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- Navigation Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <!-- Service Section -->
+    <section id="services">
+      <div class="services container">
+        <div class="service-top">
+          <h1 class="section-title">Serv<span>i</span>ces</h1>
+          <p>
+            I offer comprehensive frontend development services to bring your
+            digital vision to life. From responsive web design to interactive
+            user experiences, I create solutions that are both visually
+            appealing and highly functional.
+          </p>
+        </div>
+        <div class="service-bottom">
+          <div class="service-item">
+            <div class="icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h2>Web Development</h2>
+            <p>
+              Building responsive, accessible websites using modern technologies
+              like Tailwind, Bootstrap, Swiperjs, and vanilla JavaScript. Focus
+              on performance, SEO, and cross-browser compatibility.
+            </p>
+          </div>
+          <div class="service-item">
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <h2>UI/UX Design</h2>
+            <p>
+              Creating intuitive user interfaces with thoughtful user
+              experiences. Wireframing, prototyping, and implementing designs
+              that users love to interact with.
+            </p>
+          </div>
+          <div class="service-item">
+            <div class="icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h2>Mobile Responsive</h2>
+            <p>
+              Ensuring your website looks and works perfectly on all devices.
+              Mobile-first approach with flexible layouts and touch-friendly
+              interactions.
+            </p>
+          </div>
+          <div class="service-item">
+            <div class="icon">
+              <i class="fas fa-search"></i>
+            </div>
+            <h2>SEO Optimization</h2>
+            <p>
+              Building websites with search engine optimization in mind from the
+              start. Proper semantic markup, performance optimization, and
+              structured data implementation.
+            </p>
+          </div>
+          <div class="service-item">
+            <div class="icon">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <h2>Cybersecurity Expert</h2>
+            <p>
+              Pepetration testing, vulnerability assessment, ethical hacking.
+            </p>
+          </div>
+          <div class="service-item">
+            <div class="icon">
+              <i class="fas fa-rocket"></i>
+            </div>
+            <h2>Performance</h2>
+            <p>Optimization, lazy loading, caching.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Service Section -->
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="projects container">
+        <div class="projects-header">
+          <h1 class="section-title">Recent <span>Projects</span></h1>
+        </div>
+        <div class="all-projects">
+          <div class="project-item">
+            <div class="project-info">
+              <h1>E-commerce Platform</h1>
+              <h2>Html, Css, and JavaScript</h2>
+              <p>
+                A full-featured e-commerce platform with product listings, cart
+                functionality, user authentication, and payment processing.
+                Implemented responsive design and optimized for performance.
+              </p>
+              <a
+                href="https://adeoye100.github.io/Nike-Sneakers-Heaven/"
+                class="project-link"
+                >View Project <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+            <div class="project-img">
+              <img src="./img/nike.png" alt="E-commerce Platform" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>To-do list App</h1>
+              <h2>Html 5, Css, and vanilla.js</h2>
+              <p>
+                A health and fitness tracking application that allows users to
+                log workouts, nutrition, and health metrics with data
+                visualization. Features include goal setting and progress
+                tracking.
+              </p>
+              <a href="To-do List App/index.html" class="project-link"
+                >View Project <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+            <div class="project-img">
+              <img src="./img/todo.png" alt="To-do list app" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Portfolio Template</h1>
+              <h2>HTML5, CSS3, JavaScript</h2>
+              <p>
+                A customizable portfolio template for creatives and developers.
+                Features include animated sections, dark/light mode, and
+                responsive design.
+              </p>
+              <a
+                href="https://adeoye100.github.io/My-Portfolio-2.0/"
+                class="project-link"
+                >View Project <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+            <div class="project-img">
+              <img src="./img/p2.png" alt="Portfolio Template" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="about container">
+        <div class="col-left">
+          <div class="about-img">
+            <img src="./img/dev avatar.jpg" alt="Adeoye Opeyemi" />
+          </div>
+        </div>
+        <div class="col-right">
+          <h1 class="section-title">About <span>me</span></h1>
+          <h2>Front End Developer</h2>
+          <p>
+            💡❤️‍🩹 I’m endlessly curious about web design and building smart
+            software applications that make life easier.<br />
+            🌍 🦅On a mission to grow in this ever-evolving tech space —
+            learning daily, dreaming big, and coding my future as a software
+            engineer.
+            <br />
+            A student of the ever-changing tech world, chasing knowledge one
+            line of code at a time.<br />
+            🛠️ 💪🏾Nothing beats the thrill of squashing bugs, building things
+            from scratch, and solving real-life challenges through tech.
+          </p>
+          <a
+            href="https://docs.google.com/document/d/1AtNpdEro3_UfHLKDnG366cNRgJqIRkVAR7Tsxxq0v8U/edit?usp=sharing"
+            class="cta"
+            >Download Resume</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="contact container">
+        <div>
+          <h1 class="section-title">Contact <span>info</span></h1>
+        </div>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="contact-info">
+              <h1>Phone</h1>
+              <h2>+234 812 406 8599</h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-info">
+              <h1>Email</h1>
+              <h2>adeoyeopeyemi951@gmail.com</h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-info">
+              <h1>Address</h1>
+              <h2>Kwara, Nigeria</h2>
+              <h2>Available for remote work worldwide</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer container">
+        <div class="brand">
+          <h1><span>A</span>deoye <span>O</span>peyemi</h1>
+        </div>
+        <h2>Your Complete Web Development Solution</h2>
+        <div class="social-icon">
+          <div class="social-item">
+            <a href="https://github.com/Adeoye100/Adeoye100"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+          <div class="social-item">
+            <a href="https://www.linkedin.com/in/adeoye-o-244b22329"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+          <div class="social-item">
+            <a href="mailto:adeoyeopeyemi951@gmail.com"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+          </div>
+          <div class="social-item">
+            <a href="https://www.tiktok.com/@adeoyeopeyemi007"
+              ><i class="fa-brands fa-tiktok"></i
+            ></a>
+          </div>
+        </div>
+        <p>&COPY;Copyright Adeoye Opeyemi. All rights reserved</p>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
