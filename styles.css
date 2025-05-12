@@ -211,6 +211,7 @@ body {
   font-weight: 600;
   text-decoration: none;
   border-radius: 50px;
+  font-family: "Chillax", sans-serif;
   transition: all 0.3s ease;
   border: none;
   cursor: pointer;
@@ -271,6 +272,7 @@ body {
   background: transparent;
   border: 2px solid white;
   color: white;
+  font-family: "Chillax", sans-serif;
   box-shadow: none;
 }
 
@@ -310,11 +312,13 @@ body {
 .swiper-button-prev:hover {
   background: rgba(255, 255, 255, 0.3);
   transform: scale(1.1);
+  background-color: var(--secondary);
 }
 
 .swiper-button-next::after,
 .swiper-button-prev::after {
   font-size: 1.5rem;
+  color: #ff5252;
   font-weight: bold;
 }
 
